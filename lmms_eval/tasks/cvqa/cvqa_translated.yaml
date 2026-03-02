@@ -1,5 +1,4 @@
-# dataset_path: afaji/cvqa
-dataset_path: /workspace2/caizhenyang/lzz/datasets/PangeaBench-cvqa
+dataset_path: neulab/PangeaBench-cvqa
 dataset_name: default
 task: "cvqa_translated"
 dataset_kwargs:

@@ -1,5 +1,4 @@
-# dataset_path: neulab/PangeaBench-xmmmu
-dataset_path: /workspace2/caizhenyang/lzz/datasets/PangeaBench-xmmmu
+dataset_path: neulab/PangeaBench-xmmmu
 task: "mmmu_Hindi_val"
 test_split: hi
 output_type: generate_until

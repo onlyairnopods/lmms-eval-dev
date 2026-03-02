@@ -1,5 +1,4 @@
-# dataset_path: neulab/PangeaBench-maxm
-dataset_path: /workspace2/caizhenyang/lzz/datasets/PangeaBench-maxm
+dataset_path: neulab/PangeaBench-maxm
 dataset_kwargs:
   token: False
 task: "maxm_hi"
