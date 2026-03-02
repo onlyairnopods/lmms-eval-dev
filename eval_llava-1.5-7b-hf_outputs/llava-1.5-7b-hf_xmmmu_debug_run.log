@@ -1,0 +1,521 @@
+[32m2026-02-22 22:18:05[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m476[0m - [1mVerbosity set to INFO[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:18:06[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m565[0m - [1mEvaluation tracker args: {'output_path': 'eval_outputs'}[0m
+[32m2026-02-22 22:18:06[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m570[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. For debugging and analysis, use --log_samples instead, which saves all model outputs to files without impacting performance. The --write_out flag only prints the first few documents to console and provides limited debugging value.[0m
+[32m2026-02-22 22:18:06[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m649[0m - [1mSelected Tasks: ['xmmmu'][0m
+[32m2026-02-22 22:18:06[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m170[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.58s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.44s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  1.96s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.21s/it]
+Traceback (most recent call last):
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 514, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 653, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/utils.py", line 726, in _wrapper
+    return fn(*args, **kwargs)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/evaluator.py", line 198, in simple_evaluate
+    lm = models.get_model(model, force_simple).create_from_arg_string(
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/model.py", line 111, in create_from_arg_string
+    return cls(**args, **args2)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/models/simple/llava_hf.py", line 100, in __init__
+    self._image_processor = AutoProcessor.from_pretrained(pretrained, revision=revision, trust_remote_code=trust_remote_code)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 321, in from_pretrained
+    return processor_class.from_pretrained(
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/processing_utils.py", line 892, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/processing_utils.py", line 938, in _get_arguments_from_pretrained
+    args.append(attribute_class.from_pretrained(pretrained_model_name_or_path, **kwargs))
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 897, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2271, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2505, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 157, in __init__
+    super().__init__(
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 115, in __init__
+    fast_tokenizer = TokenizerFast.from_file(fast_tokenizer_file)
+Exception: data did not match any variant of untagged enum ModelWrapper at line 277156 column 3
+[32m2026-02-22 22:18:14[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m536[0m - [31m[1mError during evaluation: data did not match any variant of untagged enum ModelWrapper at line 277156 column 3. Please set `--verbosity=DEBUG` to get more information.[0m
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 26, in <module>
+    from ..image_processing_utils import BaseImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils.py", line 21, in <module>
+    from .image_transforms import center_crop, normalize, rescale
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_transforms.py", line 55, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 370, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 56, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 200, in __init__
+    match = self._regex.search(version)
+TypeError: expected string or bytes-like object
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 29, in <module>
+    from ..models.auto.image_processing_auto import IMAGE_PROCESSOR_MAPPING, AutoImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 28, in <module>
+    from ...image_processing_utils_fast import BaseImageProcessorFast
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils_fast.py", line 67, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 401, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 56, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 200, in __init__
+    match = self._regex.search(version)
+TypeError: expected string or bytes-like object
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 29, in <module>
+    from ..models.auto.image_processing_auto import IMAGE_PROCESSOR_MAPPING, AutoImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 28, in <module>
+    from ...image_processing_utils_fast import BaseImageProcessorFast
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils_fast.py", line 67, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 415, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 56, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 200, in __init__
+    match = self._regex.search(version)
+TypeError: expected string or bytes-like object
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 29, in <module>
+    from ..models.auto.image_processing_auto import IMAGE_PROCESSOR_MAPPING, AutoImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 28, in <module>
+    from ...image_processing_utils_fast import BaseImageProcessorFast
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils_fast.py", line 67, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 415, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 54, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 198, in __init__
+    match = self._regex.search(version)
+TypeError: expected string or bytes-like object
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 29, in <module>
+    from ..models.auto.image_processing_auto import IMAGE_PROCESSOR_MAPPING, AutoImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 28, in <module>
+    from ...image_processing_utils_fast import BaseImageProcessorFast
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils_fast.py", line 67, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 415, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 103, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 359, in __init__
+    match = self._regex.fullmatch(version)
+TypeError: expected string or bytes-like object
+Traceback (most recent call last):
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/__main__.py", line 51, in <module>
+    import lmms_eval.tasks
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/tasks/__init__.py", line 13, in <module>
+    from lmms_eval.api.task import ConfigurableMessagesTask, ConfigurableTask, Task
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/task.py", line 39, in <module>
+    from lmms_eval.api.registry import (
+  File "/workspace2/caizhenyang/lzz/yihang_MMalign/lmms-eval/lmms_eval/api/registry.py", line 3, in <module>
+    import evaluate as hf_evaluate
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 29, in <module>
+    from ..models.auto.image_processing_auto import IMAGE_PROCESSOR_MAPPING, AutoImageProcessor
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 28, in <module>
+    from ...image_processing_utils_fast import BaseImageProcessorFast
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/image_processing_utils_fast.py", line 67, in <module>
+    if is_torchvision_v2_available():
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 415, in is_torchvision_v2_available
+    return version.parse(_torchvision_version) >= version.parse("0.15")
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 54, in parse
+    return Version(version)
+  File "/home/caizhenyang/.conda/envs/llava/lib/python3.10/site-packages/packaging/version.py", line 198, in __init__
+    match = self._regex.search(version)
+TypeError: expected string or bytes-like object
+[32m2026-02-22 22:36:10[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m476[0m - [1mVerbosity set to INFO[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag maxm is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m479[0m - [33m[1mThe tag xm100 is already registered as a group, this tag will not be registered. This may affect tasks you want to call.[0m
+[32m2026-02-22 22:36:11[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m565[0m - [1mEvaluation tracker args: {'output_path': 'eval_outputs'}[0m
+[32m2026-02-22 22:36:11[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m570[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. For debugging and analysis, use --log_samples instead, which saves all model outputs to files without impacting performance. The --write_out flag only prints the first few documents to console and provides limited debugging value.[0m
+[32m2026-02-22 22:36:11[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m649[0m - [1mSelected Tasks: ['xmmmu'][0m
+[32m2026-02-22 22:36:11[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m170[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.71s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.58s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.43s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.49s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[32m2026-02-22 22:36:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_hf[0m:[36m__init__[0m:[36m134[0m - [1mUsing single device: cuda:0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m515[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_Arabic_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_French_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_English_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_Hindi_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_Indonesian_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_Japanese_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mfrom_taskdict[0m:[36m100[0m - [1mNo metadata found in task config for mmmu_Portuguese_val, using default n_shot=0[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_Arabic_val on rank 0...[0m
+  0%|          | 0/298 [00:00<?, ?it/s]100%|██████████| 298/298 [00:00<00:00, 9815.01it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_Arabic_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+ما السبب المحتمل للعيب الموجود على جانب هذه الورقة، والتي تأتي من نبات الخرشوف الذي يُزرع عادةً في منطقة البحر الأبيض المتوسط وأمريكا الجنوبية؟ <image>
+A. عدوى العفن المائي
+B. عدوى بكتيرية
+C. لا أعرف ولا أريد التخمين
+D. عدوى فطرية
+E. نقص المغذيات
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('ما السبب المحتمل للعيب الموجود على جانب هذه الورقة، والتي تأتي من نبات الخرشوف الذي يُزرع عادةً في منطقة البحر الأبيض المتوسط وأمريكا الجنوبية؟ <image>\nA. عدوى العفن المائي\nB. عدوى بكتيرية\nC. لا أعرف ولا أريد التخمين\nD. عدوى فطرية\nE. نقص المغذيات\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_Arabic_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_Arabic_val', 'ar'), idx=0, metadata={'task': 'mmmu_Arabic_val', 'doc_id': 0, 'repeats': 1, 'split': 'ar'}, resps=[], filtered_resps={}, task_name='mmmu_Arabic_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_French_val on rank 0...[0m
+  0%|          | 0/298 [00:00<?, ?it/s]100%|██████████| 298/298 [00:00<00:00, 10415.33it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_French_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> Quelle pourrait être la raison probable de la tache présente sur le côté de cette feuille, qui provient d'un plant d'artichaut globulaire typiquement cultivé en Méditerranée et en Amérique du Sud ?
+A. Infection par les moisissures aquatiques
+B. Infection bactérienne
+C. Je ne sais pas et je ne veux pas deviner.
+D. Infection fongique
+E. Carence en nutriments
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=("<image> Quelle pourrait être la raison probable de la tache présente sur le côté de cette feuille, qui provient d'un plant d'artichaut globulaire typiquement cultivé en Méditerranée et en Amérique du Sud ?\nA. Infection par les moisissures aquatiques\nB. Infection bactérienne\nC. Je ne sais pas et je ne veux pas deviner.\nD. Infection fongique\nE. Carence en nutriments\nAnswer with the option letter from the given choices directly.", <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_French_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_French_val', 'fr'), idx=0, metadata={'task': 'mmmu_French_val', 'doc_id': 0, 'repeats': 1, 'split': 'fr'}, resps=[], filtered_resps={}, task_name='mmmu_French_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_English_val on rank 0...[0m
+  0%|          | 0/900 [00:00<?, ?it/s]100%|██████████| 900/900 [00:00<00:00, 11120.49it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_English_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> Baxter Company has a relevant range of production between 15,000 and 30,000 units. The following cost data represents average variable costs per unit for 25,000 units of production. If 30,000 units are produced, what are the per unit manufacturing overhead costs incurred?
+A. $6
+B. $7
+C. $8
+D. $9
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('<image> Baxter Company has a relevant range of production between 15,000 and 30,000 units. The following cost data represents average variable costs per unit for 25,000 units of production. If 30,000 units are produced, what are the per unit manufacturing overhead costs incurred?\nA. $6\nB. $7\nC. $8\nD. $9\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_English_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_English_val', 'en'), idx=0, metadata={'task': 'mmmu_English_val', 'doc_id': 0, 'repeats': 1, 'split': 'en'}, resps=[], filtered_resps={}, task_name='mmmu_English_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_Hindi_val on rank 0...[0m
+  0%|          | 0/291 [00:00<?, ?it/s]100%|██████████| 291/291 [00:00<00:00, 10086.79it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_Hindi_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> यह पत्ता जो कि एक ग्लोब आर्टिचोक पौधे का है और आमतौर पर भूमध्यसागरीय और दक्षिण अमेरिका में उगाया जाता है, इसके किनारे पर मौजूद दाग का संभावित कारण क्या हो सकता है?
+A. जल फफूंद संक्रमण
+B. बैक्टीरियल संक्रमण
+C. मुझे नहीं पता और मैं अनुमान भी नहीं लगाना चाहता।
+D. कवक संक्रमण
+E. पोषक तत्वों की कमी
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('<image> यह पत्ता जो कि एक ग्लोब आर्टिचोक पौधे का है और आमतौर पर भूमध्यसागरीय और दक्षिण अमेरिका में उगाया जाता है, इसके किनारे पर मौजूद दाग का संभावित कारण क्या हो सकता है?\nA. जल फफूंद संक्रमण\nB. बैक्टीरियल संक्रमण\nC. मुझे नहीं पता और मैं अनुमान भी नहीं लगाना चाहता।\nD. कवक संक्रमण\nE. पोषक तत्वों की कमी\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_Hindi_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_Hindi_val', 'hi'), idx=0, metadata={'task': 'mmmu_Hindi_val', 'doc_id': 0, 'repeats': 1, 'split': 'hi'}, resps=[], filtered_resps={}, task_name='mmmu_Hindi_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_Indonesian_val on rank 0...[0m
+  0%|          | 0/297 [00:00<?, ?it/s]100%|██████████| 297/297 [00:00<00:00, 10793.58it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_Indonesian_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> Apa yang mungkin menjadi alasan adanya cacat pada sisi daun ini, yang berasal dari tanaman artichoke yang biasanya dibudidayakan di Mediterania dan Amerika Selatan?
+A. Infeksi jamur air
+B. Infeksi bakteri
+C. Tidak tahu dan tidak ingin menebak.
+D. Infeksi jamur
+E. Kekurangan nutrisi
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('<image> Apa yang mungkin menjadi alasan adanya cacat pada sisi daun ini, yang berasal dari tanaman artichoke yang biasanya dibudidayakan di Mediterania dan Amerika Selatan?\nA. Infeksi jamur air\nB. Infeksi bakteri\nC. Tidak tahu dan tidak ingin menebak.\nD. Infeksi jamur\nE. Kekurangan nutrisi\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_Indonesian_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_Indonesian_val', 'id'), idx=0, metadata={'task': 'mmmu_Indonesian_val', 'doc_id': 0, 'repeats': 1, 'split': 'id'}, resps=[], filtered_resps={}, task_name='mmmu_Indonesian_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_Japanese_val on rank 0...[0m
+  0%|          | 0/269 [00:00<?, ?it/s]100%|██████████| 269/269 [00:00<00:00, 10170.44it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_Japanese_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> この葉に見られる斑点の原因として考えられるのは何でしょうか？この葉は、通常地中海地域や南アメリカで栽培されるアーティチョークのものです。
+A. 水カビ感染
+B. 細菌感染
+C. わからないし、推測もしたくないです。
+D. 真菌感染
+E. 栄養不足
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('<image> この葉に見られる斑点の原因として考えられるのは何でしょうか？この葉は、通常地中海地域や南アメリカで栽培されるアーティチョークのものです。\nA. 水カビ感染\nB. 細菌感染\nC. わからないし、推測もしたくないです。\nD. 真菌感染\nE. 栄養不足\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_Japanese_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_Japanese_val', 'ja'), idx=0, metadata={'task': 'mmmu_Japanese_val', 'doc_id': 0, 'repeats': 1, 'split': 'ja'}, resps=[], filtered_resps={}, task_name='mmmu_Japanese_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m428[0m - [1mBuilding contexts for mmmu_Portuguese_val on rank 0...[0m
+  0%|          | 0/297 [00:00<?, ?it/s]100%|██████████| 297/297 [00:00<00:00, 10651.72it/s]
+[32m2026-02-22 22:36:20[0m | [33m[1mWARNING [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m576[0m - [33m[1mDEPRECATION WARNING: --write_out is deprecated and will be removed in v0.5.0. Use --log_samples instead for saving model outputs and debugging. The write_out flag only prints the first few documents and impacts performance.[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m281[0m - [1mTask: ConfigurableMessagesTask(task_name=mmmu_Portuguese_val,output_type=generate_until,num_fewshot=0,repeats=1); document 0; context prompt (starting on next line):    
+<image> Qual poderia ser a provável razão para a mancha presente na lateral desta folha, que é de uma planta de alcachofra-globo, tipicamente cultivada no Mediterrâneo e na América do Sul?
+A. Infecção por fungos aquáticos
+B. Infecção bacteriana
+C. Não sei e não quero adivinhar.
+D. Infecção fúngica
+E. Deficiência de nutrientes
+Answer with the option letter from the given choices directly.
+(end of prompt on previous line)
+target string or answer choice index (starting on next line):
+N/A (document is None)
+(end of target on previous line)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator_utils[0m:[36mprint_writeout[0m:[36m285[0m - [1mRequest: Instance(request_type='generate_until', arguments=('<image> Qual poderia ser a provável razão para a mancha presente na lateral desta folha, que é de uma planta de alcachofra-globo, tipicamente cultivada no Mediterrâneo e na América do Sul?\nA. Infecção por fungos aquáticos\nB. Infecção bacteriana\nC. Não sei e não quero adivinhar.\nD. Infecção fúngica\nE. Deficiência de nutrientes\nAnswer with the option letter from the given choices directly.', <bound method ConfigurableMessagesTask.doc_to_messages of ConfigurableMessagesTask(task_name=mmmu_Portuguese_val,output_type=generate_until,num_fewshot=0,repeats=1)>, {'max_new_tokens': 16, 'until': ['\n\n']}, 0, 'mmmu_Portuguese_val', 'pt'), idx=0, metadata={'task': 'mmmu_Portuguese_val', 'doc_id': 0, 'repeats': 1, 'split': 'pt'}, resps=[], filtered_resps={}, task_name='mmmu_Portuguese_val', doc_id=0, repeats=1, doc=None)[0m
+[32m2026-02-22 22:36:20[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m609[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/2650 [00:00<?, ?it/s][32m2026-02-22 22:36:22[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 1/2650 [00:01<1:25:40,  1.94s/it][32m2026-02-22 22:36:22[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 2/2650 [00:02<39:26,  1.12it/s]  [32m2026-02-22 22:36:22[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 4/2650 [00:02<18:10,  2.43it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 6/2650 [00:02<11:11,  3.94it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 7/2650 [00:02<10:14,  4.30it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   0%|          | 10/2650 [00:02<06:00,  7.32it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|          | 14/2650 [00:02<03:35, 12.26it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|          | 18/2650 [00:03<02:35, 16.89it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|          | 22/2650 [00:03<02:06, 20.71it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|          | 26/2650 [00:03<01:46, 24.71it/s][32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:23[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|          | 30/2650 [00:03<01:37, 26.95it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 2304, features 4718592 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|▏         | 34/2650 [00:03<02:09, 20.13it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   1%|▏         | 37/2650 [00:03<02:04, 20.97it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 40/2650 [00:03<02:04, 20.98it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 44/2650 [00:04<01:47, 24.16it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 47/2650 [00:04<01:48, 23.98it/s][32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:24[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 50/2650 [00:04<01:54, 22.81it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 2304, features 4718592 in generating[0m
+Model Responding:   2%|▏         | 53/2650 [00:04<02:16, 19.06it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 2304, features 4718592 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 56/2650 [00:04<02:31, 17.07it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 60/2650 [00:04<02:05, 20.66it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   2%|▏         | 64/2650 [00:05<01:45, 24.45it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 68/2650 [00:05<01:35, 27.14it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 72/2650 [00:05<01:27, 29.35it/s][32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:25[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 76/2650 [00:05<01:22, 31.24it/s][32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 80/2650 [00:05<01:18, 32.65it/s][32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 84/2650 [00:05<01:17, 33.25it/s][32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 88/2650 [00:05<01:15, 33.75it/s][32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+[32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m
+Model Responding:   3%|▎         | 92/2650 [00:06<01:54, 22.35it/s][32m2026-02-22 22:36:26[0m | [31m[1mERROR   [0m | [36mlmms_eval.models.chat.llava_hf[0m:[36mgenerate_until[0m:[36m107[0m - [31m[1mError Image features and image tokens do not match: tokens: 1152, features 2359296 in generating[0m

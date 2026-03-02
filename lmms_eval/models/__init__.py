@@ -65,6 +65,7 @@ AVAILABLE_SIMPLE_MODELS = {
     "omnivinci": "OmniVinci",
     "openai": "OpenAICompatible",
     "oryx": "Oryx",
+    "pangea": "Pangea",
     "phi3v": "Phi3v",
     "phi4_multimodal": "Phi4",
     "plm": "PerceptionLM",
