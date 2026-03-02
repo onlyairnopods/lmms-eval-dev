@@ -1,13 +1,13 @@
-import os
 import json
-from pycocoevalcap.eval import COCOEvalCap, Bleu, Meteor, Rouge, Cider, Spice
-from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
-from pycocotools.coco import COCO
+import logging
+import os
 import unicodedata
 
-from lmms_eval.tasks._task_utils.file_utils import generate_submission_file
+from pycocoevalcap.eval import Bleu, Cider, COCOEvalCap, Meteor, Rouge, Spice
+from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
+from pycocotools.coco import COCO
 
-import logging
+from lmms_eval.tasks._task_utils.file_utils import generate_submission_file
 
 eval_logger = logging.getLogger("lmms-eval")
 
@@ -45,10 +45,8 @@ def xm100_process_result(doc, result):
             int_id += str(ord(c) - 96)
         else:
             int_id += c
-    
-    id = int(int_id)
 
-    
+    id = int(int_id)
 
     data_dict = {"answer": [doc["caption"]], "pred": pred, "image_id": id}
 
@@ -57,21 +55,25 @@ def xm100_process_result(doc, result):
 
 def normalize(result, args):
     caption = result["pred"]
-    if 'xm100_zh' in args.tasks:
+    if "xm100_zh" in args.tasks:
         from spacy.lang.zh import Chinese
-        chinese = Chinese() #.from_config({"nlp": {"tokenizer": {"segmenter": "jieba"}}})
+
+        chinese = Chinese()  # .from_config({"nlp": {"tokenizer": {"segmenter": "jieba"}}})
         caption = "".join([word.text for word in chinese(caption)])
-    if 'xm100_jp' in args.tasks:
+    if "xm100_jp" in args.tasks:
         from spacy.lang.ja import Japanese
+
         japanese = Japanese()
         caption = "".join([word.text for word in japanese(caption)])
-    if 'xm100_th' in args.tasks:
+    if "xm100_th" in args.tasks:
         from spacy.lang.th import Thai
+
         thai = Thai()
         caption = "".join([word.text for word in thai(caption)])
     caption = unicodedata.normalize("NFC", caption)
     result["pred"] = caption
     return result
+
 
 def xm100_aggregation_result(results, metric, args):
     scorers = [(Bleu(4), "Bleu_1"), (Bleu(4), "Bleu_2"), (Bleu(4), "Bleu_3"), (Bleu(4), "Bleu_4"), (Meteor(), "METEOR"), (Rouge(), "ROUGE_L"), (Cider(), "CIDEr"), (Spice(), "SPICE")]
@@ -183,7 +185,7 @@ def xm100_test_process_result(doc, result):
             int_id += str(ord(c) - 96)
         else:
             int_id += c
-    
+
     id = int(int_id)
     return {"xm100_passthrough": {"pred": result, "image_id": id}}
 

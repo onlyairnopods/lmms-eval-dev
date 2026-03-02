@@ -1,11 +1,12 @@
-from collections import defaultdict
-import re
 import ast
-import random
-import numpy as np
-import os
 import json
 import logging
+import os
+import random
+import re
+from collections import defaultdict
+
+import numpy as np
 
 from lmms_eval.tasks._task_utils.file_utils import generate_submission_file
 
@@ -34,7 +35,7 @@ def construct_prompt(doc):
     question = doc["question"]
     if doc["question_type"] == "multiple-choice":
         # Weirdly, data["options"] is a string in MMMU Huggingface dataset
-        parsed_options = parse_options(ast.literal_eval(doc["options"].replace('\n', ' ')))  ######################################### there are some syntax errors
+        parsed_options = parse_options(ast.literal_eval(doc["options"].replace("\n", " ")))  ######################################### there are some syntax errors
         # parsed_options already prepends a newline so no need to add space here
         question = f"{question}\n{parsed_options}\n{MULTI_CHOICE_PROMPT}"
     else:
@@ -46,31 +47,36 @@ def mmmu_doc_to_text(doc):
     question = construct_prompt(doc)
     return replace_images_tokens(question)
 
-from PIL import Image
+
 import base64
 from io import BytesIO
+
+from PIL import Image
+
+
 def base64_to_pil_image(base64_string):
     img_bytes = base64.b64decode(base64_string)
-    
+
     buffered = BytesIO(img_bytes)
-    
+
     image = Image.open(buffered)
     # image.save('temp.png')
     return image
+
 
 def mmmu_doc_to_visual(doc):
     prompt = construct_prompt(doc)
     image_tokens = re.findall(r"<image \d+>", prompt)
     # Remove <> and  swap space as _
     image_tokens = [image_token.strip("<>").replace(" ", "_") for image_token in image_tokens]
-    visual = [doc[image_token].convert("RGB") for image_token in image_tokens if doc[image_token] is not None]   ######################################### load image from base64 encoding
+    visual = [doc[image_token].convert("RGB") for image_token in image_tokens if doc[image_token] is not None]  ######################################### load image from base64 encoding
     return visual
 
 
 def mmmu_process_results(doc, results):
     pred = results[0]
     if doc["question_type"] == "multiple-choice":
-        index2ans, all_choices = get_multi_choice_info(ast.literal_eval(doc["options"].replace('\n', ' ')))  ######################################### there are some syntax errors
+        index2ans, all_choices = get_multi_choice_info(ast.literal_eval(doc["options"].replace("\n", " ")))  ######################################### there are some syntax errors
         parsed_pred = parse_multi_choice_response(pred, all_choices, index2ans)
     else:
         parsed_pred = parse_open_response(pred)

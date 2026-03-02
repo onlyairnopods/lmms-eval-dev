@@ -1,16 +1,17 @@
 import json
 import os
-import requests
+import time
+from copy import deepcopy
+from pathlib import Path
+
 import numpy as np
 import openai
-from openai import OpenAI
-import time
+import requests
 import yaml
-from pathlib import Path
-from copy import deepcopy
 from datasets import load_dataset
-from loguru import logger as eval_logger
 from langdetect import detect
+from loguru import logger as eval_logger
+from openai import OpenAI
 
 NUM_SECONDS_TO_SLEEP = 5
 
@@ -101,9 +102,11 @@ def parse_score(review):
         eval_logger.debug(f"Error: {e}. Returning [-1, -1]")
         return [-1, -1]
 
+
 def llava_doc_to_visual(doc):
     return [doc["image"].convert("RGB")]
-    
+
+
 def llava_doc_to_text(doc, model_specific_prompt_kwargs=None):
     if model_specific_prompt_kwargs is None:
         model_specific_prompt_kwargs = {}
@@ -111,8 +114,10 @@ def llava_doc_to_text(doc, model_specific_prompt_kwargs=None):
     post_prompt = model_specific_prompt_kwargs.get("post_prompt", "")
     return f"{pre_prompt}{doc['question']}{post_prompt}"
 
+
 def llava_doc_to_target(doc):
-    return doc['gpt_answer']
+    return doc["gpt_answer"]
+
 
 def llava_process_results(doc, result):
     """
@@ -139,7 +144,7 @@ def llava_process_results(doc, result):
         ans1_lan = detect(ans1)
         ans2_lan = detect(ans2)
         question_lan = detect(question)
-        if ans2_lan != ans1_lan and ans2_lan != question_lan: 
+        if ans2_lan != ans1_lan and ans2_lan != question_lan:
             scores[1] = min(0, scores[1])
     except Exception as e:
         eval_logger.error(f"Error for Question ID: {doc.get('question_id', 'Unknown')}: {e}")

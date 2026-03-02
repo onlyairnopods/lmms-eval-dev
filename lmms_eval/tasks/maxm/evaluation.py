@@ -85,9 +85,7 @@ def generated_caption_evaluation(
         # requires the same number of references for each prediction
         max_len = max(len(x) for x in caption_golds)
         for i in range(len(caption_golds)):
-            caption_golds[i] = caption_golds[i] + [""] * (
-                max_len - len(caption_golds[i])
-            )
+            caption_golds[i] = caption_golds[i] + [""] * (max_len - len(caption_golds[i]))
 
     results = dict()
     if "bleu" in metrics:
@@ -140,9 +138,7 @@ def generated_caption_evaluation(
             results[f"avg_bertscore_{r}"] = np.mean(res[r])
             results[f"std_bertscore_{r}"] = np.std(res[r])
     if "cider" in metrics or "spice" in metrics:
-        raise NotImplementedError(
-            "CIDEr and SPICE are not supported by the current implementation"
-        )
+        raise NotImplementedError("CIDEr and SPICE are not supported by the current implementation")
         # normalize and tokenize captions
         # if lang_id in {"zh", "ja", "th"}:
         #     if lang_id == "zh":
@@ -254,9 +250,7 @@ def generated_label_classification_evaluation(
         if single_answers:
             df["gold"] = df["gold"].apply(_entailment_to_yes_no_maybe)
         else:
-            df["gold"] = df["gold"].apply(
-                lambda x: [_entailment_to_yes_no_maybe(ans) for ans in x]
-            )
+            df["gold"] = df["gold"].apply(lambda x: [_entailment_to_yes_no_maybe(ans) for ans in x])
 
     if bool_to_yes_no:
 
@@ -274,9 +268,7 @@ def generated_label_classification_evaluation(
         if single_answers:
             df.gold = df.gold.apply(lambda ans: str(map_bool_to_yes_no(ans)).strip())
         else:
-            df.gold = df.gold.apply(
-                lambda answers: [map_bool_to_yes_no(ans) for ans in answers]
-            )
+            df.gold = df.gold.apply(lambda answers: [map_bool_to_yes_no(ans) for ans in answers])
 
     df["pred_post_processed"] = vqa_clean(df["pred"].tolist())
 
@@ -291,8 +283,7 @@ def generated_label_classification_evaluation(
         if vqa_post_process:
             post_proc_acc = (df["gold"] == df["pred_post_processed"]).mean()
             post_proc_relaxed_acc = df.apply(
-                lambda x: x["pred_post_processed"].startswith(x["gold"])
-                or x["pred_post_processed"].endswith(x["gold"]),
+                lambda x: x["pred_post_processed"].startswith(x["gold"]) or x["pred_post_processed"].endswith(x["gold"]),
                 axis=1,
             ).mean()
             scores["acc_post_processed"] = post_proc_acc
@@ -300,10 +291,7 @@ def generated_label_classification_evaluation(
     else:
         scores["acc"] = df.apply(lambda x: x["pred"] in x["gold"], axis=1).mean()
         scores["relaxed_acc"] = df.apply(
-            lambda x: any(
-                x["pred"].startswith(ans) or x["pred"].endswith(ans)
-                for ans in x["gold"]
-            ),
+            lambda x: any(x["pred"].startswith(ans) or x["pred"].endswith(ans) for ans in x["gold"]),
             axis=1,
         ).mean()
 
@@ -313,11 +301,7 @@ def generated_label_classification_evaluation(
                 axis=1,
             ).mean()
             scores["relaxed_acc_post_processed"] = df.apply(
-                lambda x: any(
-                    x["pred_post_processed"].startswith(ans)
-                    or x["pred_post_processed"].endswith(ans)
-                    for ans in x["gold"]
-                ),
+                lambda x: any(x["pred_post_processed"].startswith(ans) or x["pred_post_processed"].endswith(ans) for ans in x["gold"]),
                 axis=1,
             ).mean()
 
@@ -492,9 +476,7 @@ def vqa_clean(labels: List[str]):
     def processPunctuation(inText):
         outText = inText
         for p in punct:
-            if (p + " " in inText or " " + p in inText) or (
-                re.search(commaStrip, inText) is not None
-            ):
+            if (p + " " in inText or " " + p in inText) or (re.search(commaStrip, inText) is not None):
                 outText = outText.replace(p, "")
             else:
                 outText = outText.replace(p, " ")
@@ -1005,9 +987,7 @@ def chair(image_ids, text_labels, captions, print_examples=10):
             words = [word for word in words if word != "seat"]
 
         # get synonyms for all words in the caption
-        idxs = [
-            idxs[idx] for idx, word in enumerate(words) if word in set(mscoco_objects)
-        ]
+        idxs = [idxs[idx] for idx, word in enumerate(words) if word in set(mscoco_objects)]
         words = [word for word in words if word in set(mscoco_objects)]
         node_words = []
         for word in words:
@@ -1035,9 +1015,7 @@ def chair(image_ids, text_labels, captions, print_examples=10):
                 # cap_dict['hallucination_idxs'].append(idx)
                 hallucinated = True
         if print_examples > 0 and i < print_examples:
-            print(
-                f"{iid} -- {cap} -- {words} {node_words} -- {mscoco_hallucinated_words}"
-            )
+            print(f"{iid} -- {cap} -- {words} {node_words} -- {mscoco_hallucinated_words}")
         # count hallucinated caps
         num_caps += 1
         if hallucinated:
