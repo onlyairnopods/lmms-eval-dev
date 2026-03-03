@@ -1,0 +1,36 @@
+# xchat Kinyarwanda defeasible_reasoning task configuration
+
+
+task: "xchat_Kinyarwanda_defeasible_reasoning"
+dataset_path: json
+dataset_name: default
+dataset_kwargs:
+  token: False
+  data_files:
+    - lmms_eval/tasks/xchat/Kinyarwanda/defeasible_reasoning/data.json
+test_split: train
+output_type: generate_until
+
+process_docs: !function lmms_eval.tasks.xchat.utils.xchat_process_docs
+
+doc_to_text: !function lmms_eval.tasks.xchat.utils.xchat_doc_to_text
+doc_to_visual: !function lmms_eval.tasks.xchat.utils.xchat_doc_to_visual
+doc_to_target: "reference_answer"
+
+doc_to_messages: !function lmms_eval.tasks.xchat.utils.xchat_doc_to_messages
+
+generation_kwargs:
+  max_new_tokens: 512
+  temperature: 0
+  do_sample: False
+
+# 先保存结果，后续使用 judge_xchat.py 批量评分
+process_results: !function lmms_eval.tasks.xchat.utils.xchat_process_results
+
+metric_list:
+  - metric: xchat_generation
+    aggregation: !function lmms_eval.tasks.xchat.utils.xchat_aggregate_results
+    higher_is_better: true
+
+metadata:
+  - version: 0.0

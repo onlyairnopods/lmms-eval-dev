@@ -109,6 +109,7 @@ for i in "${!models[@]}"; do
             --output_path ${output_path} \
             --show_config \
             --write_out \
+            ${force_simple} \
             2>&1 | tee -a ${output_path}/${model_name}_${task}_run.log
     done
 done
