@@ -90,10 +90,16 @@ for i in "${!models[@]}"; do
     for task in "${tasks[@]}"; do
         echo "Running task: ${task}"
 
-        # python3 -m lmms_eval \
-        python3 -m accelerate.commands.launch \
-            --num_processes=4 --mixed_precision=bf16 \
-            -m lmms_eval \
+        # Add --force_simple for llava_hf on xmmmu task
+        force_simple=""
+        if [[ "${model}" == "llava_hf" && "${task}" == "xmmmu" ]]; then
+            force_simple="--force_simple"
+        fi
+
+        # python3 -m accelerate.commands.launch \
+        #     --num_processes=4 --mixed_precision=bf16 \
+        #     -m lmms_eval \
+        python3 -m lmms_eval \
             --model ${model} \
             --model_args pretrained=${model_args}${extra_args} \
             --tasks ${task} \

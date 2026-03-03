@@ -327,6 +327,8 @@ class LlavaHf(lmms):
                 self.tokenizer.chat_template = self.chat_template
                 text = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
             elif self.tokenizer.chat_template is not None:
+                # Force use of VICUNA_CHAT_TEMPLATE for simple models to preserve <image> tokens
+                self.tokenizer.chat_template = VICUNA_CHAT_TEMPLATE
                 text = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
             else:
                 self.tokenizer.chat_template = VICUNA_CHAT_TEMPLATE
