@@ -1,9 +1,9 @@
 import json
 import os
-from typing import List, Dict, Any, Callable
-from PIL import Image
-import datasets
+from typing import Any, Callable, Dict, List
 
+import datasets
+from PIL import Image
 
 # Base path for xchat data
 XCHAT_DATA_BASE = os.path.join(os.path.dirname(__file__))
@@ -180,10 +180,7 @@ def xchat_doc_to_messages(doc: Dict[str, Any], lmms_eval_specific_kwargs: Dict =
 
     # Add system message if present
     if system_prompt:
-        messages.append({
-            "role": "system",
-            "content": [{"type": "text", "text": system_prompt}]
-        })
+        messages.append({"role": "system", "content": [{"type": "text", "text": system_prompt}]})
 
     # Get images
     images = xchat_doc_to_visual(doc)

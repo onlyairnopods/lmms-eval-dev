@@ -18,9 +18,9 @@ import json
 import os
 import re
 import sys
-from typing import Dict, Any, List
+from typing import Any, Dict, List
 
-from lmms_eval.llm_judge import get_server, ServerConfig
+from lmms_eval.llm_judge import ServerConfig, get_server
 
 
 def parse_args():
