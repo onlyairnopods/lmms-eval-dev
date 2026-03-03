@@ -4,16 +4,16 @@ export HF_ENDPOINT=https://hf-mirror.com
 # export CUDA_VISIBLE_DEVICES=3
 export TOKENIZERS_PARALLELISM=true
 
-conda activate llava
+conda activate lmms-eval
 
 # model='llava_hf'
-# model_args='/workspace2/caizhenyang/lzz/models/llava-1.5-7b-hf'
+# model_args='llava-hf/llava-1.5-7b-hf'
 
 # model='qwen3_vl'
-# model_args='/workspace2/caizhenyang/lzz/models/Qwen3-VL-4B-Instruct'
+# model_args='Qwen/Qwen3-VL-4B-Instruct'
 
 # model='gemma3'
-# model_args='/workspace2/caizhenyang/lzz/models/gemma-3-4b-it'
+# model_args='google/gemma-3-4b-it'
 
 # model_name="${model_args%/}"
 # model_name="${model_name##*/}"
@@ -22,35 +22,35 @@ conda activate llava
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 models=(
-    # "llava_hf"
-    
+    "llava_hf"
+
     # "qwen3_vl"
     # "qwen3_vl"
         
     # "llava_hf"
 
     # "gemma3"
-    "gemma3"
+    # "gemma3"
 )
 
 model_args_list=(
-    # "/workspace2/caizhenyang/lzz/models/llava-1.5-7b-hf" # 完成除 xmmmu 外
+    "llava-hf/llava-1.5-7b-hf"
 
-    # "/workspace2/caizhenyang/lzz/models/Qwen3-VL-4B-Instruct" # 完成
-    # "/workspace2/caizhenyang/lzz/models/Qwen3-VL-8B-Instruct" # 完成
+    # "Qwen/Qwen3-VL-4B-Instruct"
+    # "Qwen/Qwen3-VL-8B-Instruct"
 
-    # "/workspace2/caizhenyang/lzz/models/llava-v1.6-mistral-7b-hf" # 完成除 xmmmu 外
+    # "llava-hf/llava-v1.6-mistral-7b-hf"
 
-    # "/workspace2/caizhenyang/lzz/models/gemma-3-4b-it" # 完成
-    "/workspace2/caizhenyang/lzz/models/gemma-3-12b-it"
+    # "google/gemma-3-4b-it"
+    # "google/gemma-3-12b-it"
 )
 
 tasks=(
-    'cvqa'
-    'maxm'
-    'xmmmu' # llava报错，可能有问题
-    # 'xchat' # 没配置文件
-    # 'flores' # 没配置文件，没数据
+    # 'cvqa'
+    # 'maxm'
+    # 'xmmmu'
+    'xchat' # 已配置 8 语言 × 10 类别 = 80 个任务
+    # 'flores' # 非多模态
 ) # list of tasks for evaluation
 
 # output_path='eval_outputs'
