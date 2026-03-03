@@ -1,0 +1,21 @@
+dataset_path: CohereLabs/Global-MMLU-Lite
+dataset_name: en
+task: "global_mmlu_lite_en"
+test_split: test
+dataset_kwargs:
+  token: False
+output_type: generate_until
+doc_to_messages: !function utils.global_mmlu_lite_doc_to_messages
+doc_to_text: ""
+doc_to_target: "answer"
+process_results: !function utils.global_mmlu_lite_process_results
+generation_kwargs:
+  max_new_tokens: 16
+  temperature: 0
+  do_sample: False
+metric_list:
+  - metric: accuracy
+    aggregation: !function utils.global_mmlu_lite_aggregate_results
+    higher_is_better: true
+metadata:
+  - version: 0.0
