@@ -52,18 +52,8 @@ def get_results_maxm(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["relaxed_accuracy,none"])
 
     for kk, vv in scores.items():
-        rows.append({
-            "model": model_name,
-            "task": task_name,
-            "language": kk,
-            "score": round(vv, 1)
-        })
-    rows.append({
-        "model": model_name,
-        "task": task_name,
-        "language": "avg",
-        "score": round(sum(scores.values()) / len(scores), 1)
-    })
+        rows.append({"model": model_name, "task": task_name, "language": kk, "score": round(vv, 1)})
+    rows.append({"model": model_name, "task": task_name, "language": "avg", "score": round(sum(scores.values()) / len(scores), 1)})
     return rows
 
 
@@ -187,18 +177,8 @@ def get_results_xmmmu(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["mmmu_acc,none"]) * 100
 
     for kk, vv in scores.items():
-        rows.append({
-            "model": model_name,
-            "task": task_name,
-            "language": kk,
-            "score": vv
-        })
-    rows.append({
-        "model": model_name,
-        "task": task_name,
-        "language": "avg",
-        "score": round(sum(scores.values()) / len(scores), 1)
-    })
+        rows.append({"model": model_name, "task": task_name, "language": kk, "score": vv})
+    rows.append({"model": model_name, "task": task_name, "language": "avg", "score": round(sum(scores.values()) / len(scores), 1)})
     return rows
 
 
@@ -286,9 +266,9 @@ def get_results_cvqa(data, task_name, model_name):
 
         if sample_id not in id2lang:
             continue
-        
+
         group = tuple(id2lang[sample_id])
-        
+
         lang_total[group] += 1
         lang_correct[group] += acc
 
@@ -297,30 +277,15 @@ def get_results_cvqa(data, task_name, model_name):
         group_acc[g] = lang_correct[g] / lang_total[g]
 
     for g, a in group_acc.items():
-        rows.append({
-            "model": model_name,
-            "task": task_name,
-            "language": g,
-            "score": round(a * 100, 1)
-        })
-        
+        rows.append({"model": model_name, "task": task_name, "language": g, "score": round(a * 100, 1)})
+
     # Macro-Acc
     if group_acc:
-        macro_acc = sum(group_acc.values()) / len(group_acc)   # 0~1
-        rows.append({
-            "model": model_name,
-            "task": task_name,
-            "language": "macro_avg",
-            "score": round(macro_acc * 100, 1)
-        })
+        macro_acc = sum(group_acc.values()) / len(group_acc)  # 0~1
+        rows.append({"model": model_name, "task": task_name, "language": "macro_avg", "score": round(macro_acc * 100, 1)})
     else:
-        rows.append({
-            "model": model_name,
-            "task": task_name,
-            "language": "macro_avg",
-            "score": None
-        })
-    return rows  
+        rows.append({"model": model_name, "task": task_name, "language": "macro_avg", "score": None})
+    return rows
 
 
 def process_results(data, task_name, model_name):
