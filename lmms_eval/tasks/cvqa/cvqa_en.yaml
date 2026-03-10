@@ -1,6 +1,6 @@
 dataset_path: neulab/PangeaBench-cvqa
 dataset_name: default
-task: "cvqa_translated"
+task: "cvqa_en"
 dataset_kwargs:
   token: False
 test_split: test
@@ -13,8 +13,10 @@ generation_kwargs:
   temperature: 0
   do_sample: False
 metric_list:
-  - metric: cvqa_passthrough
-    aggregation: !function utils.cvqa_test_aggregation_result
+  # - metric: cvqa_passthrough
+  #   aggregation: !function utils.cvqa_test_aggregation_result
+  - metric: accuracy
+    aggregation: mean
     higher_is_better: true
     ignore_case: true
     ignore_punctuation: true

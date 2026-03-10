@@ -52,7 +52,18 @@ def get_results_maxm(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["relaxed_accuracy,none"])
 
     for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": vv})
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": kk,
+            "score": round(vv, 1)
+        })
+    rows.append({
+        "model": model_name,
+        "task": task_name,
+        "language": "avg",
+        "score": round(sum(scores.values()) / len(scores), 1)
+    })
     return rows
 
 
@@ -176,7 +187,18 @@ def get_results_xmmmu(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["mmmu_acc,none"]) * 100
 
     for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": vv})
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": kk,
+            "score": vv
+        })
+    rows.append({
+        "model": model_name,
+        "task": task_name,
+        "language": "avg",
+        "score": round(sum(scores.values()) / len(scores), 1)
+    })
     return rows
 
 
@@ -245,7 +267,7 @@ def get_results_cvqa(data, task_name, model_name):
     # print("Loading dataset...")
     # ds = load_dataset("neulab/PangeaBench-cvqa")
     # id2lang = {
-    #     sample["ID"]: eval(sample["Subset"])[0]
+    #     sample["ID"]: eval(sample["Subset"])
     #     for sample in tqdm(ds["test"])
     # }
     # with open("lmms_eval/tasks/cvqa/cvqa_langs.json", "w") as f:
@@ -265,9 +287,9 @@ def get_results_cvqa(data, task_name, model_name):
 
         if sample_id not in id2lang:
             continue
-
-        language = id2lang[sample_id]
-
+        
+        language = tuple(id2lang[sample_id])
+        
         lang_total[language] += 1
         lang_correct[language] += acc
 
@@ -276,8 +298,19 @@ def get_results_cvqa(data, task_name, model_name):
         scores[lang] = accuracy * 100
 
     for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": vv})
-    return rows
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": kk,
+            "score": round(vv, 1)
+        })
+    rows.append({
+        "model": model_name,
+        "task": task_name,
+        "language": "avg",
+        "score": round(sum(scores.values()) / len(scores), 1)
+    })
+    return rows  
 
 
 def process_results(data, task_name, model_name):
