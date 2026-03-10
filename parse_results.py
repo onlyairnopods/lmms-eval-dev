@@ -52,8 +52,18 @@ def get_results_maxm(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["relaxed_accuracy,none"])
 
     for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": round(vv, 1)})
-    rows.append({"model": model_name, "task": task_name, "language": "avg", "score": round(sum(scores.values()) / len(scores), 1)})
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": kk,
+            "score": round(vv, 1)
+        })
+    rows.append({
+        "model": model_name,
+        "task": task_name,
+        "language": "avg",
+        "score": round(sum(scores.values()) / len(scores), 1)
+    })
     return rows
 
 
@@ -177,8 +187,18 @@ def get_results_xmmmu(results, task_name, model_name):
         scores[postfix] = float(detaild_results[subtask]["mmmu_acc,none"]) * 100
 
     for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": vv})
-    rows.append({"model": model_name, "task": task_name, "language": "avg", "score": round(sum(scores.values()) / len(scores), 1)})
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": kk,
+            "score": vv
+        })
+    rows.append({
+        "model": model_name,
+        "task": task_name,
+        "language": "avg",
+        "score": round(sum(scores.values()) / len(scores), 1)
+    })
     return rows
 
 
@@ -240,7 +260,6 @@ def get_results_alm_bench(results, task_name, model_name):
 
 def get_results_cvqa(data, task_name, model_name):
     rows = []
-    scores = {}
 
     # from tqdm import tqdm
     # from datasets import load_dataset
@@ -267,20 +286,41 @@ def get_results_cvqa(data, task_name, model_name):
 
         if sample_id not in id2lang:
             continue
+        
+        group = tuple(id2lang[sample_id])
+        
+        lang_total[group] += 1
+        lang_correct[group] += acc
 
-        language = tuple(id2lang[sample_id])
+    group_acc = {}
+    for g in lang_total:
+        group_acc[g] = lang_correct[g] / lang_total[g]
 
-        lang_total[language] += 1
-        lang_correct[language] += acc
-
-    for lang in lang_total:
-        accuracy = lang_correct[lang] / lang_total[lang]
-        scores[lang] = accuracy * 100
-
-    for kk, vv in scores.items():
-        rows.append({"model": model_name, "task": task_name, "language": kk, "score": round(vv, 1)})
-    rows.append({"model": model_name, "task": task_name, "language": "avg", "score": round(sum(scores.values()) / len(scores), 1)})
-    return rows
+    for g, a in group_acc.items():
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": g,
+            "score": round(a * 100, 1)
+        })
+        
+    # Macro-Acc
+    if group_acc:
+        macro_acc = sum(group_acc.values()) / len(group_acc)   # 0~1
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": "macro_avg",
+            "score": round(macro_acc * 100, 1)
+        })
+    else:
+        rows.append({
+            "model": model_name,
+            "task": task_name,
+            "language": "macro_avg",
+            "score": None
+        })
+    return rows  
 
 
 def process_results(data, task_name, model_name):
